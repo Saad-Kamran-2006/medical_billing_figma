@@ -8,7 +8,7 @@ const FeatureSection = () => {
       {featuresCard.map((card, i) => (
         <div
           key={i}
-          className="flex flex-col items-center bg-white text-center p-5 xl:p-8 rounded-xl shadow-gray-300/70 shadow-lg gap-y-4 hover:scale-105 duration-700"
+          className="flex flex-col items-center bg-white text-center p-5 xl:p-8 rounded-xl shadow-gray-300/70 shadow-lg border gap-y-4 hover:scale-105 duration-700"
         >
           <span className="bg-accent h-12 w-12 xl:h-14 xl:w-14 place-items-center place-content-center rounded-full ">
             {<card.icon color="white" size={28} />}
